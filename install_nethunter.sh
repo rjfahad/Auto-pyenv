@@ -1,13 +1,14 @@
 #!/bin/bash
 
+# Set up Termux storage access
+termux-setup-storage
+
 # Create .hushlogin to disable the welcome message
 touch ~/.hushlogin
 
 # Update and upgrade packages
 apt update && apt upgrade -y
 
-# Set up Termux storage access
-termux-setup-storage
 
 # Install wget if not already installed
 pkg install -y wget
