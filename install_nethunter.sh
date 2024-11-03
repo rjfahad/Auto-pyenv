@@ -21,6 +21,4 @@ chmod +x install-nethunter-termux
 
 # Run the NetHunter installation script twice as per your instructions
 ./install-nethunter-termux
-./install-nethunter-termux
-
 echo "NetHunter installation script executed successfully!"
